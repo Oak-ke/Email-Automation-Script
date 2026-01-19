@@ -1,0 +1,86 @@
+[
+    {
+        "country": "Nigeria",
+        "trending_topics": [
+            "Lagos-Abuja High-Speed Rail Launch",
+            "Nollywood AI-Generated Blockbusters",
+            "The 'Reverse Japa' Economic Wave",
+            "Afro-Metaverse Fashion Week"
+        ],
+        "jokes": [
+            {
+                "slot": "Morning",
+                "text": "Woke up at 8 AM and took the new high-speed train from Ibadan to Lagos. It was so fast I actually arrived at the office before my village people realized I’d left the house. For the first time in history, a Nigerian train is faster than the speed of a 'What are you bringing to the table?' Twitter argument! 🚄💨 #NoGreeForLateness",
+                "posted": false
+            },
+            {
+                "slot": "Evening",
+                "text": "I watched a Nollywood movie written by AI last night. The script was okay, but the AI struggled with the 'wicked mother-in-law' character. It tried to make her apologize and mind her business. I knew immediately the algorithm was broken—even ChatGPT cannot simulate that kind of miracle in a Nigerian household! 😂🇳🇬",
+                "posted": false
+            }
+        ]
+    },
+    {
+        "country": "Kenya",
+        "trending_topics": [
+            "Electric Matatu (Basigo) Dominance",
+            "Silicon Savannah's New AI Tax",
+            "Gen Z Takeover of County Assemblies",
+            "The 'Maandamano' Digital Archive"
+        ],
+        "jokes": [
+            {
+                "slot": "Morning",
+                "text": "Boarded an electric Matatu this morning and it was so silent I could actually hear my own conscience. Turns out my conscience sounds exactly like an M-Pesa 'Insufficient Balance' notification. Please, bring back the loud music and the engine noise, this silence is too expensive for my mental health! ⚡️🇰🇪",
+                "posted": false
+            },
+            {
+                "slot": "Evening",
+                "text": "The government is now looking for a way to tax 'vibes and inshallah.' I told my date 'I’ll see what I can do' about dinner, and KRA sent me a text asking for 16% VAT on 'Prospective Promises.' Nowhere is safe in this Silicon Savannah! 📱💸 #KenyaMovingForward",
+                "posted": false
+            }
+        ]
+    },
+    {
+        "country": "Egypt",
+        "trending_topics": [
+            "New Administrative Capital (NAC) Full Transition",
+            "Grand Egyptian Museum (GEM) Virtual Reality Tours",
+            "Monorail vs. Microbus Culture",
+            "AI-Optimized Nile Irrigation Systems"
+        ],
+        "jokes": [
+            {
+                "slot": "Morning",
+                "text": "Tried to find my new office in the New Administrative Capital using GPS this morning. The app got confused and told me to 'Turn left at the 4,000-year-old sphinx then take the monorail to the future.' I ended up in 2030, but I still couldn't find a parking spot. Some things never change, ya basha! 🇪🇬🚗",
+                "posted": false
+            },
+            {
+                "slot": "Evening",
+                "text": "I went on the VR tour at the Grand Egyptian Museum today. I tried to argue with a digital King Tut about the price of a souvenir. He looked at me and said, 'Habibi, I ruled an empire, but even I can't fix the inflation on this shawarma.' Even the Pharaohs are feeling the vibe! 🌯👑",
+                "posted": false
+            }
+        ]
+    },
+    {
+        "country": "South Africa",
+        "trending_topics": [
+            "The 'Smart Grid' Load Shedding Solutions",
+            "Amapiano Phase 4: Global Operatic Fusion",
+            "Green Hydrogen Job Boom in the Northern Cape",
+            "Springboks' Drive for a 5th World Cup Title"
+        ],
+        "jokes": [
+            {
+                "slot": "Morning",
+                "text": "My 'Smart Home' app sent me a notification at 8 AM: 'Load shedding suspended for 2 hours, please choose between making coffee or charging your personality.' I chose coffee, because a South African with a dead phone is a tragedy, but a South African without caffeine is a national security threat! ☕️🇿🇦 #EskomConfessions",
+                "posted": false
+            },
+            {
+                "slot": "Evening",
+                "text": "Amapiano is so global now that I saw a video of an Eskimo doing the 'Mnike' dance in a parka. My brother, it’s -30 degrees! The only thing that should be shaking is your internal organs from the cold, not your waistline! Mzansi is really the world's choreographer. 💃🔥 #AmapianoToTheWorld",
+                "posted": false
+            }
+        ]
+    }
+]

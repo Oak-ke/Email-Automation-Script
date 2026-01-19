@@ -1,0 +1,42 @@
+name: Publish Scheduled Joke
+
+on:
+  schedule:
+    # 05:00 UTC is 08:00 EAT
+    - cron: '0 5 * * *'
+    # 15:00 UTC is 18:00 EAT
+    - cron: '0 15 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install tweepy python-dotenv
+
+      - name: Run publisher
+        env:
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_KEY_SECRET: ${{ secrets.X_API_KEY_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_TOKEN_SECRET: ${{ secrets.X_ACCESS_TOKEN_SECRET }}
+        run: python publisher.py
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add jokes_queue.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update jokes_queue.json [skip ci]" && git push)
